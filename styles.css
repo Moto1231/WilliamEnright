@@ -25,7 +25,7 @@ footer { border-top:1px solid #ccc; margin-top:50px; padding-top:20px; }
 
 .principle-card {
     border: 1px solid #ccc;
-    padding: 20px;
+    padding: 15px;
 }
 
 @media (max-width: 800px) {
