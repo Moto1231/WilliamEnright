@@ -34,7 +34,7 @@ body {
 }
 
 .page-section:nth-of-type(even) {
-    background: var(--slate);
+    background: var(--charcoal);
     border-color: var(--accent-red);
 }
 
