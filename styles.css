@@ -30,15 +30,19 @@ body {
     position: relative;
     scroll-snap-align: start;
     background: var(--charcoal);
+    border: 2px solid var(--steel-blue);
+    margin: 8px;
 }
 
 .page-section:nth-of-type(even) {
     background: var(--slate);
+    border-color: var(--accent-red);
 }
 
 .hero-section {
     text-align: center;
     background: var(--charcoal);
+    border-color: var(--steel-blue);
 }
 
 h1 {
