@@ -16,7 +16,7 @@ body {
     line-height: 1.5;
     margin: 0;
     color: var(--light-gray);
-    background: linear-gradient(135deg, #050505 0%, var(--charcoal) 55%, var(--steel-blue) 140%);
+    background: linear-gradient(135deg, #050505 0%, #111820 75%, #182633 100%);
 }
 
 .page-section {
