@@ -43,6 +43,7 @@ body {
     text-align: center;
     background: var(--charcoal);
     border-color: var(--steel-blue);
+    padding-top: 90px;
 }
 
 h1 { font-size: 3.2rem; margin-bottom: 1px; color: var(--white); }
