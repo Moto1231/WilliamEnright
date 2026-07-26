@@ -21,9 +21,9 @@ body {
 }
 
 .page-section {
-    min-height: calc(100vh - 80px);
+    min-height: calc(100vh - 90px);
     box-sizing: border-box;
-    padding: 80px 10%;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +31,7 @@ body {
     scroll-snap-align: start;
     background: var(--charcoal);
     border: 2px solid var(--steel-blue);
-    margin: 40px;
+    margin: 80px;
 }
 
 .page-section:nth-of-type(even) {
@@ -47,12 +47,12 @@ body {
 
 h1 {
     font-size: 3.2rem;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
     color: var(--white);
 }
 
 h2 {
-    margin-top: 12px;
+    margin-top: 8px;
     color: var(--steel-blue);
 }
 
@@ -114,7 +114,7 @@ footer {
 }
 
 .footer2 {
-    padding:25px;
+    padding:15px;
     text-align:center;
     border-top:1px solid var(--steel-blue);
     background: var(--slate);
@@ -124,8 +124,8 @@ footer {
 @media (max-width: 800px) {
     .page-section { 
         margin: 20px;
-        min-height: calc(100vh - 50px);
-        padding: 50px 20px; 
+        min-height: calc(100vh - 60px);
+        padding: 40px 10px; 
     }
     .next-arrow { right: 25px; }
     .previous-arrow { left: 25px; }
