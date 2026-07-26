@@ -21,9 +21,9 @@ body {
 }
 
 .page-section {
-    min-height: calc(100vh - 90px);
+    min-height: calc(100vh - 180px);
     box-sizing: border-box;
-    padding: 100px 20%;
+    padding: 70px 12%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +31,7 @@ body {
     scroll-snap-align: start;
     background: var(--charcoal);
     border: 2px solid var(--steel-blue);
-    margin: 80px;
+    margin: 90px;
 }
 
 .page-section:nth-of-type(even) {
@@ -123,9 +123,9 @@ footer {
 
 @media (max-width: 800px) {
     .page-section { 
-        margin: 20px;
-        min-height: calc(100vh - 60px);
-        padding: 40px 10px; 
+        margin: 25px;
+        min-height: calc(100vh - 80px);
+        padding: 40px 30px; 
     }
     .next-arrow { right: 25px; }
     .previous-arrow { left: 25px; }
