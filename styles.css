@@ -7,15 +7,25 @@ body {
     color: #222;
 }
 
-header { padding: 50px 0 30px 0; }
+header { padding: 70px 0 60px 0; }
 h1 { font-size: 3.2rem; margin-bottom: 2px; }
 h2 { margin-top: 12px; }
 h3 { margin-top: 8px; }
 .headline { font-size: 1.3rem; }
 .button { display: inline-block; margin-top:25px; padding:12px 25px; background:#333; color:white; text-decoration:none; border-radius:5px; }
-section { margin-bottom:15px; }
+
+.page-section {
+    margin: 35px 0;
+    padding: 45px 25px;
+    border-top: 1px solid #ddd;
+}
+
+.hero-section {
+    text-align: center;
+}
+
 li { margin-bottom:2px; }
-footer { border-top:1px solid #ccc; margin-top:50px; padding-top:20px; }
+footer { border-top:1px solid #ccc; margin-top:50px; padding-top:20px; text-align:center; }
 
 .principles-grid {
     display: grid;
