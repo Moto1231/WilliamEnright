@@ -113,6 +113,15 @@ footer {
     color: var(--light-gray);
 }
 
+.footer2
+ {
+    padding: 25px;
+    text-align: center;
+    border-top: 1px solid var(--steel-blue);
+    background: var(--slate);
+    color: var(--light-gray);
+}
+
 @media (max-width: 800px) {
     .page-section { padding: 60px 30px; }
     .next-arrow { right: 25px; }
