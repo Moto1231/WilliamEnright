@@ -16,7 +16,8 @@ body {
     line-height: 1.5;
     margin: 0;
     color: var(--light-gray);
-    background: linear-gradient(135deg, #050505 0%, #111820 75%, #182633 100%);
+    background: radial-gradient(ellipse at center, #101820 0%, #080a0d 45%, #050505 100%);
+    background-attachment: fixed;
 }
 
 .page-section {
