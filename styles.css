@@ -33,11 +33,6 @@ body {
     margin: 105px 65px;
 }
 
-.page-section:nth-of-type(even) {
-    background: var(--charcoal);
-    border-color: var(--accent-red);
-}
-
 .hero-section {
     text-align: center;
     background: var(--charcoal);
