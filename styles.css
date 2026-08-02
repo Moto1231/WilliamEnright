@@ -64,7 +64,7 @@ h3 { color: var(--accent-red); }
     text-decoration:none;
     border-radius:5px;
     width: 250px;
-    text-align: right;
+    right: 50px;
 }
 
 .button:hover { background:var(--accent-red); }
