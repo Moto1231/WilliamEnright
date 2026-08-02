@@ -64,6 +64,7 @@ h3 { color: var(--accent-red); }
     text-decoration:none;
     border-radius:5px;
     width: 250px;
+    text-align: center;
     right: 50px;
 }
 
