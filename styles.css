@@ -63,6 +63,7 @@ h3 { color: var(--accent-red); }
     color:var(--white);
     text-decoration:none;
     border-radius:5px;
+    width: 250px;
 }
 
 .button:hover { background:var(--accent-red); }
