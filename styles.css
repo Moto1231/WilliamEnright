@@ -21,7 +21,7 @@ body {
 }
 
 .page-section {
-    min-height: calc(100vh - 260px);
+    min-height: calc(50%);
     box-sizing: border-box;
     padding: 55px 12%;
     display: flex;
