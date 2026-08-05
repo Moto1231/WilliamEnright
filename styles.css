@@ -33,6 +33,7 @@ body {
     margin: 85px 55px;
     overflow: hidden;
     align-items: flex-start;
+    height: 800px;
 }
 
 .hero-section {
@@ -66,7 +67,7 @@ h3 { color: var(--accent-red); }
     border-radius:5px;
     width: 250px;
     text-align: center;
-    right: 50px;
+    left: 50px;
 }
 
 .button:hover { background:var(--accent-red); }
