@@ -2,6 +2,29 @@ html {
     scroll-behavior: smooth;
 }
 
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: flex;
+    animation: fade .35s ease;
+}
+
+@keyframes fade {
+
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
 :root {
     --charcoal: #1f252b;
     --slate: #323b45;
